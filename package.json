@@ -1,0 +1,24 @@
+{
+  "name": "mebots",
+  "version": "1.0.0",
+  "description": "Simple interface to the MeBots API (mebots.co)!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErikBoesen/mebotsjs.git"
+  },
+  "keywords": [
+    "groupme",
+    "bots",
+    "api"
+  ],
+  "author": "Erik Boesen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ErikBoesen/mebotsjs/issues"
+  },
+  "homepage": "https://github.com/ErikBoesen/mebotsjs#readme"
+}
