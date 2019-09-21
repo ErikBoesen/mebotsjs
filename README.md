@@ -1,5 +1,5 @@
 # mebots
-[![NPM package summary for markipsum](https://nodei.co/npm/markipsum.png)](https://nodei.co/npm/markipsum)
+[![NPM package summary for mebots](https://nodei.co/npm/mebots.png)](https://nodei.co/npm/mebots)
 
 > A JavaScript interface to the [MeBots](http://mebots.co) [API](http://mebots.co/documentation).
 
