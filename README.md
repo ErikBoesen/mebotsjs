@@ -1,7 +1,7 @@
 # mebots
 [![NPM package summary for markipsum](https://nodei.co/npm/markipsum.png)](https://nodei.co/npm/markipsum)
 
-> A JavaScript interface to the <a href="http://mebots.co">MeBots</a> <a href="http://mebots.co/documentation">API</a>.
+> A JavaScript interface to the [MeBots](http://mebots.co) [API](http://mebots.co/documentation).
 
 ## Usage
 First install with `npm` or your favorite package manager:
