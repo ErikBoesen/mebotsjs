@@ -9,17 +9,19 @@ class Bot {
         this.token = token;
     }
     req(endpoint) {
-        return fetch(HOST + API_ROOT + endpoint)
+        let url = new URL(HOST + API_ROOT + endpoint),
+            params = {token: this.token};
+        Object.keys(params).forEach(key => url.searchParams.append(key, params[key]));
+        return fetch(url)
             .then(res => res.json())
-            .then((out) => {
-                return out;
-            })
             .catch(err => { throw err });
     }
     instance(group_id) {
-        return this.req('bot/' + this.slug + 'instance' + group_id);
+        return this.req('bot/' + this.slug + '/instance/' + group_id);
     }
 }
 
 var bot = new Bot('bah', '15348c123044e858884a56');
-console.log(bot.instance(53846490));
+bot.instance(53846490).then((data) => {
+    console.log(data);
+});
