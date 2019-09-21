@@ -20,7 +20,7 @@ const Bot = require('mebots').Bot;
 Instantiate your bot by passing the shortname and token:
 ```js
 // var or let should work too
-const bot = mebots.Bot('your_bot_shortname', 'token (at top of page while editing your bot)')
+const bot = new mebots.Bot('your_bot_shortname', 'token (at top of page while editing your bot)')
 ```
 You will likely want to store the token in an environment variable or config file of some sort. At any rate, don't commit it to GitHub! :)
 
