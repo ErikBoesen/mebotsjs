@@ -37,5 +37,7 @@ bot.getInstance(receivedGroupId).then((instance) => {
 ```
 Feel free to open an issue if you need help!
 
+See [this repository](https://github.com/ErikBoesen/mebots-example-javascript) for an example of a fully-functioning GroupMe bot in JavaScript using the MeBots API.
+
 ## Authorship
 [Erik Boesen](https://github.com/ErikBoesen)
