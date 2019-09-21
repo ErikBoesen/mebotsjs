@@ -3,7 +3,7 @@ const fetch = require('node-fetch');
 HOST = 'https://mebotsco.herokuapp.com';
 API_ROOT = '/api/'
 
-class Bot {
+class exports.Bot {
     constructor(slug, token) {
         this.slug = slug;
         this.token = token;
@@ -20,8 +20,3 @@ class Bot {
         return this.req('bot/' + this.slug + '/instance/' + group_id);
     }
 }
-
-var bot = new Bot('bah', '15348c123044e858884a56');
-bot.instance(53846490).then((data) => {
-    console.log(data);
-});
