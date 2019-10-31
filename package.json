@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ErikBoesen/mebotsjs.git"
+    "url": "git+https://github.com/MeBots/mebotsjs.git"
   },
   "keywords": [
     "groupme",
@@ -18,9 +18,9 @@
   "author": "Erik Boesen",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ErikBoesen/mebotsjs/issues"
+    "url": "https://github.com/MeBots/mebotsjs/issues"
   },
-  "homepage": "https://github.com/ErikBoesen/mebotsjs#readme",
+  "homepage": "https://github.com/MeBots/mebotsjs#readme",
   "dependencies": {
     "node-fetch": "^2.6.0"
   }
