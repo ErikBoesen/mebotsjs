@@ -1,6 +1,6 @@
 const fetch = require('node-fetch');
 
-HOST = 'https://mebotsco.herokuapp.com';
+HOST = 'https://mebots.io';
 API_ROOT = '/api/'
 
 class Bot {
