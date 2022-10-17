@@ -16,6 +16,9 @@ class Bot {
             .then(res => res.json())
             .catch(err => { throw err });
     }
+    getInstances() {
+        return this.req('bots/' + this.slug + '/instances')
+    }
     getInstance(group_id) {
         return this.req('bot/' + this.slug + '/instance/' + group_id);
     }
